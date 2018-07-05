@@ -1,0 +1,34 @@
+{
+  "name": "kap-http",
+  "version": "0.1.0",
+  "description": "Send HTTP(s) request",
+  "license": "MIT",
+  "repository": "ChipWolf/kap-http",
+  "author": {
+    "name": "Chip Wolf",
+    "email": "hello@chipwolf.uk",
+    "url": "github.com/ChipWolf"
+  },
+  "scripts": {
+    "test": "echo notest"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "kap-plugin",
+    "http",
+    "https",
+    "upload",
+    "share"
+  ],
+  "dependencies": {
+    "request": "*"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "kap-plugin-test": "^0.5.0",
+    "sinon": "^2.3.2",
+    "xo": "*"
+  }
+}
